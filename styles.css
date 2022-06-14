@@ -65,7 +65,8 @@ body {
     width: 36%;
 }
 .header-img {
-    width: 34%;
+    width: 23%;
+    min-width: 54rem;
 }
 .titulo {
     font-size: 4rem;
@@ -77,9 +78,10 @@ body {
     margin-top: 1rem;
 }
 .texto__p {
-    width: 80%;
+    width: 70%;
     font-size: 2.2rem;
     margin-top: 4rem;
+    line-height: 2.4rem;
 }
 .boton {
     font-family: 'RopaSansReg';
@@ -103,7 +105,78 @@ body {
     border: 1px solid grey;
 }
 
-.sobremi {
+.cont {
+    background-color: rgba(0, 150, 199, 0.1);
+}
+.main-t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.8rem;
+    padding: 4rem 0;
+    margin: 0 0 3rem;
+    color: #090A46;
+}
+
+.ventajas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vent {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #00B4D8;
+}
+.vent__img {
+    width: 20%;
+}
+.vent__t {
+    font-size: 2.8rem;
+    color: #163c6d;
+    margin: 2.6rem 0 2rem;
+}
+.vent__p {
+    text-align: center;
+    width: 70%;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+
+.servicios {
+    display: flex;
+    justify-content: center;
+}
+.metodo {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.metodo__img {
+    width: 26%;
+}
+.metodo__t {
+    font-size: 2.8rem;
+    margin: 2.6rem 0 2rem;
+    color: #163c6d;
+}
+.metodo__p {
+    width: 60%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+
+
+
+/* .sobremi {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,4 +203,4 @@ body {
     font-size: 2.2rem;
     width: 70%;
     text-align: center;
-}
+} */
