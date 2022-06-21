@@ -106,7 +106,10 @@ body {
 }
 
 .cont {
-    background-color: rgba(0, 150, 199, 0.1);
+    width: 90%;
+    background-color: rgba(0, 149, 199, 0.1);
+    margin: 0 auto;
+    border-radius: 2rem;
 }
 .main-t {
     display: flex;
@@ -172,6 +175,145 @@ body {
     margin-bottom: 6rem;
 }
 
+.trabajos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.trabajos__pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8rem;
+    margin: 2rem 0 4rem;
+}
+.trabajos__titulo {
+}
+.trabajos__t {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+.paginas {
+    position: relative;
+    width: 380px;
+}
+.paginas__a {
+}
+.paginas__img {
+    width: 100%;
+    display: block;
+    border: 2px solid #00B4D8;
+    border-radius: 1rem;
+}
+.img--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.img--overlay:hover {
+    opacity: 1;
+    border-radius: 1rem;
+    border: 3px solid #FFF;
+}
+.img--t {
+    font-size: 2.4rem;
+}
+.img--p {
+    font-size: 1.8rem;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: 10rem;
+    gap: 10rem;
+    padding: 4rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form__t {
+    font-size: 3.4rem;
+}
+.form__cont {
+    display: flex;
+    flex-direction: column;
+}
+.form__campo {
+    padding: 2rem 6rem 2rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #163c6d;
+}
+.contacto__img {
+    width: 19.4%;
+}
+.btn-form {
+    padding: 0.8rem 0;
+    border: none;
+    background-color: #00B4D8;
+    color: #FFF;
+    font-family: 'RopaSansReg';
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #030455;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+}
+.footer__logo {
+    width: 90px;
+    height: 90px;
+}
+.footer__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__copy {
+    font-size: 1.8rem;
+    color: #FFF;
+    line-height: 0.1rem;
+}
+
+.footer__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer__img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
 
 
 
