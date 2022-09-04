@@ -15,39 +15,45 @@
             </a>
             <nav class="nav">
                 <a class="nav__a" href="index.html">Inicio</a>
-                <a class="nav__a" href="#">Sobre Mi</a>
-                <a class="nav__a" href="#">Portfolio</a>
-                <a class="nav__a" href="#">Contacto</a>
+                <a class="nav__a" href="#sobre-mi">Sobre Mi</a>
+                <a class="nav__a" href="#trabajos">Portfolio</a>
+                <a class="nav__a" href="#contacto">Contacto</a>
             </nav>
         </div>
         <div class="header">
             <div class="texto">
                 <h1 class="titulo">Hola, soy Leonel Paez</h1>
                 <h2 class="sub-titulo">Web Developer</h2>
-                <p class="texto__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, ab. Laborum velit nobis necessitatibus, quibusdam nesciunt porro doloribus, perspiciatis non, omnis aspernatur sunt quos vero ipsam repellendus natus quis rerum culpa commodi provident.</p>
-                <button class="boton btn-info">Más Info</button>
-                <button class="boton">Contrátame</button>
+                <p class="texto__p">Soy un desarrollador Front-End situado en Argentina en busca de brindar soluciones con los mejores diseños y perfomances. Soy una persona organizada que presta atencion hasta los mas minimos detalles. Nunca paro de aprender y aplicarlo a mis proyectos.</p>
+                <button class="boton">
+                    <a href="#contacto">Contrátame</a>
+                </button>
+                <button class="boton btn-info">
+                    <a class="boton-info__link" target="_blank" href="https://drive.google.com/file/d/1lDbsQvZWLRAHeemUeFKx2Qb6fXII5gQm/view">
+                        Mi CV
+                    </a>
+                </button>
             </div>
             <img class="header-img" src="/img/freelancer-draw.svg" alt="">
         </div>
     </header>
-    <main class="cont">
+    <main class="cont" id="sobre-mi">
         <h2 class="main-t">Ventajas</h2>
         <div class="ventajas">
             <div class="vent">
                 <img class="vent__img" src="/img/talk.png" alt="">
                 <h3 class="vent__t">Comunicación</h3>
-                <p class="vent__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, libero quae optio, delectus sed ducimus dignissimos iusto itaque beatae aliquam quidem sunt esse a culpa commodi provident.</p>
+                <p class="vent__p">La manera mas versatil de trabajar es teniendo una comunicacion fluida entre el cliente para que el trabajo salga como lo esperado</p>
             </div>
             <div class="vent">
                 <img class="vent__img" src="/img/flex.png" alt="">
                 <h3 class="vent__t">Flexibilidad</h3>
-                <p class="vent__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, libero quae optio, delectus sed ducimus dignissimos iusto itaque beatae aliquam quidem sunt esse a culpa commodi provident.</p>
+                <p class="vent__p">Tengo la capacidad de adaptarme a cualquier proyecto que el cliente tenga en mente e ir cambiando las caracteristicas del mismo a medida que lo necesite</p>
             </div>
             <div class="vent">
                 <img class="vent__img" src="/img/compas.png" alt="">
                 <h3 class="vent__t">Orientación</h3>
-                <p class="vent__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, libero quae optio, delectus sed ducimus dignissimos iusto itaque beatae aliquam quidem sunt esse a culpa commodi provident.</p>
+                <p class="vent__p">Es importante guiar al cliente en caso de que el mismo no sepa como llevar a cabo el proyecto, dando ideas, consejos, y cambios para definir el objetivo</p>
             </div>
         </div>
 
@@ -56,22 +62,22 @@
             <div class="metodo">
                 <img class="metodo__img" src="/img/idea.png" alt="imagen idea">
                 <h3 class="metodo__t">Plan</h3>
-                <p class="metodo__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minima atque, non blanditiis corporis explicabo doloremque necessitatibus minus optio.</p>
+                <p class="metodo__p">Organizar las ideas del proyecto para evaluar necesidades y identificar la solucion</p>
             </div>
             <div class="metodo">
                 <img class="metodo__img" src="/img/diseño.png" alt="imagen diseño">
                 <h3 class="metodo__t">Diseño</h3>
-                <p class="metodo__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minima atque, non blanditiis corporis explicabo doloremque necessitatibus minus optio.</p>
+                <p class="metodo__p">Diseñar la interfaz de usuario para que sea intuitiva y facil de usar para los usuarios</p>
             </div>
             <div class="metodo">
                 <img class="metodo__img" src="/img/code.png" alt="imagen maquetado">
                 <h3 class="metodo__t">Maquetado</h3>
-                <p class="metodo__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minima atque, non blanditiis corporis explicabo doloremque necessitatibus minus optio.</p>
+                <p class="metodo__p">Planificar y organizar los contenidos de la pagina para asegurar que esta bien estructurados</p>
             </div>
             <div class="metodo">
                 <img class="metodo__img" src="/img/launch.png" alt="imagen lanzamiento">
                 <h3 class="metodo__t">Lanzamiento</h3>
-                <p class="metodo__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minima atque, non blanditiis corporis explicabo doloremque necessitatibus minus optio.</p>
+                <p class="metodo__p">Despues de las pruebas de funcionamiento y optimizacion se lanza el proyecto</p>
             </div>
         </div>
 
@@ -84,42 +90,46 @@
         </div> -->
     </main>
 
-    <section class="trabajos">
+    <section class="trabajos" id="trabajos">
         <h2 class="trabajos__t">Mis trabajos</h2>
         <div class="trabajos__pag">
-            <div class="paginas">
-                <a class="paginas__a" href="#"><img class="paginas__img" src="/img/order-summary.png" alt=""></a>
+            <div class="paginas" onclick="window.open('https://blogdecafe.vercel.app/', '_blank');">
+                <img class="paginas__img" src="/img/blogdecafe.png" alt="imagen blogdecafe">
                 <div class="img--overlay">
-                    <div class="img--t">Order Summary</div>
+                    <div class="img--t">Blog de Café</div>
                     <p class="img--p">HTML & CSS</p>
                 </div>
             </div>
-            <div class="paginas">
-                <a class="paginas__a" href="#"><img class="paginas__img" src="/img/cariñositos-ondemand.png" alt=""></a>
+            <div class="paginas" onclick="window.open('https://front-end-store1.vercel.app/', '_blank');">
+                <img class="paginas__img" src="/img/frontendstore.png" alt="imagen frontend store">
                 <div class="img--overlay">
-                    <div class="img--t">Cariñositos OnDemand</div>
+                    <div class="img--t">FrontEnd Store</div>
                     <p class="img--p">HTML & CSS</p>
                 </div>
             </div>
-            <div class="paginas">
-                <a class="paginas__a" href="#"><img class="paginas__img" src="/img/qwerty-key.png" alt=""></a>
+            <div class="paginas" onclick="window.open('https://qwerty-keyboards.vercel.app/', '_blank');">
+                <img class="paginas__img" src="/img/qwertykeyboards.png" alt="imagen qwerty keyboards">
                 <div class="img--overlay">
                     <div class="img--t">Qwerty Keyboards</div>
                     <p class="img--p">HTML & CSS</p>
                 </div>
             </div>
-            <div class="paginas">
-                <a class="paginas__a" href="#"><img class="paginas__img" src="/img/ntf-card.png" alt=""></a>
+            <div class="paginas" onclick="window.open('https://soft-click.vercel.app/', '_blank');">
+                <img class="paginas__img" src="/img/softclick.png" alt="imagen soft click">
                 <div class="img--overlay">
-                    <div class="img--t">NFT Card</div>
+                    <div class="img--t">Soft Click</div>
                     <p class="img--p">HTML & CSS</p>
                 </div>
             </div>
+
         </div>
-        <button class="boton">Ver más proyectos</button>
+        <!-- <button class="boton" onclick="window.open('https://github.com/LeoPaez', '_blank');">Ver más proyectos</button> -->
+        <button class="boton ver-mas" >
+            <a href="https://github.com/LeoPaez" target="_blank">Ver más proyectos</a>
+        </button>
     </section>
 
-    <div class="contacto">
+    <div class="contacto" id="contacto">
         <div class="form">
             <h2 class="form__t">Contacto</h2>
             <form class="form__cont">
@@ -144,11 +154,11 @@
             <p class="footer__copy">Todos los derechos reservados</p>
         </div>
         <div class="footer__images">
-            <img class="footer__img" src="/img/github.png" alt="">
-            <img class="footer__img" src="/img/linkedin.png" alt="">
-            <img class="footer__img" src="/img/whatsapp.png" alt="">
-            <img class="footer__img" src="/img/instagram.png" alt="">
-            <img class="footer__img" src="/img/twitter.png" alt="">
+            <a href="https://github.com/LeoPaez" target="_blank"><img class="footer__img" src="/img/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/leonel-paez-156126238/" target="_blank"><img class="footer__img" src="/img/linkedin.png" alt=""></a>
+            <a href="https://wa.link/hi4yue" target="_blank"><img class="footer__img" src="/img/whatsapp.png" alt=""></a>
+            <!-- <img class="footer__img" src="/img/instagram.png" alt="">
+            <img class="footer__img" src="/img/twitter.png" alt=""> -->
         </div>
     </footer>
 </body>
