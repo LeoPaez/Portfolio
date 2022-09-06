@@ -80,7 +80,6 @@
                 <p class="metodo__p">Despues de las pruebas de funcionamiento y optimizacion se lanza el proyecto</p>
             </div>
         </div>
-
         <!-- <div class="sobremi">
             <img class="sobremi-img" src="/img/sobremi-draw.svg" alt="">
             <div class="sobremi-texto">
@@ -123,7 +122,6 @@
             </div>
 
         </div>
-        <!-- <button class="boton" onclick="window.open('https://github.com/LeoPaez', '_blank');">Ver más proyectos</button> -->
         <button class="boton ver-mas" >
             <a href="https://github.com/LeoPaez" target="_blank">Ver más proyectos</a>
         </button>
@@ -133,13 +131,22 @@
         <div class="form">
             <h2 class="form__t">Contacto</h2>
             <form class="form__cont">
-                <label for=""></label>
-                <input class="form__campo" type="text" placeholder="Nombre">
-                <label for=""></label>
-                <input class="form__campo" type="email" placeholder="Email">
-                <label for=""></label>
-                <textarea class="form__campo" placeholder="Mensaje"></textarea>
-                <input class="btn-form" type="submit">
+                <div class="form-control">
+                    <label for="nombre"></label>
+                    <input class="form__campo" type="text" placeholder="Nombre" id="nombre">
+                    <p></p>
+                </div>
+                <div class="form-control">
+                    <label for="email"></label>
+                    <input class="form__campo" type="email" placeholder="Email" id="email">
+                    <p></p>
+                </div>
+                <div class="form-control">
+                    <label for="msj"></label>
+                    <textarea class="form__campo" placeholder="Mensaje" id="msj"></textarea>
+                    <p></p>
+                </div>
+                <button class="btn-form">Enviar</button>
             </form>
         </div>
         <img class="contacto__img" src="/img/contact-draw.svg" alt="">
@@ -161,5 +168,6 @@
             <img class="footer__img" src="/img/twitter.png" alt=""> -->
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

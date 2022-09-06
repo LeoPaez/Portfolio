@@ -294,6 +294,30 @@ a {
 .form__campo:focus {
     outline: 0;
 }
+.form-control {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.form-control.ok input,
+.form-control.ok textarea {
+    border: 0.1px solid #08ffc8;
+}
+.form-control.falla input,
+.form-control.falla textarea {
+    border: 0.1px solid #fe5f55;
+}
+.form-control p {
+    visibility: hidden;
+    font-size: small;
+    font-weight: 500;
+    position: absolute;
+}
+.form-control.falla p {
+    visibility: visible;
+    color: #e74c3c;
+    margin: 0 0 2rem 0;
+
+}
 .contacto__img {
     width: 23%;
 }
