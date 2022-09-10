@@ -270,15 +270,15 @@ a {
     align-items: center;
     background-color: #f8f9fa;
     width: 70%;
-    margin: 0 auto;
+    margin: 10rem auto;
     border-radius: 2rem;
-    margin-top: 10rem;
-    gap: 10rem;
+    /* gap: 10rem; */
     padding: 4rem;
 }
 .form {
     display: flex;
     flex-direction: column;
+    /* margin-left: -10rem; */
 }
 .form__t {
     font-size: 3.4rem;
@@ -325,6 +325,7 @@ a {
 .contacto__img {
     width: 338px;
     min-width: 200px;
+    margin-left: 10rem;
 }
 .btn-form {
     padding: 0.8rem 0;
@@ -353,7 +354,6 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10rem;
 }
 .footer__logo {
     width: 90px;
@@ -374,12 +374,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
+    margin-left: -1rem;
+    margin-right: -1rem;
+
 }
 .footer__img {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
@@ -391,7 +396,7 @@ a {
 }
 @media (min-width: 1212px) and (max-width: 1620px) {
     .paginas {
-        width: 33%;
+        width: 34%;
     }
 }
 @media (min-width: 1270px) {
