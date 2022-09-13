@@ -312,7 +312,8 @@ a {
     border: 0.1px solid #fe5f55;
 }
 .form-control p {
-    display: none;
+    visibility: hidden;
+    position: absolute;
     font-size: small;
     font-weight: 500;
 }
