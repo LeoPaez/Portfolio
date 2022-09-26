@@ -345,6 +345,10 @@ a {
     transform: translateY(-1px);
     background-color: #00adcf;
 }
+.submit-ok {
+    text-align: center;
+    color: #0fe0b3;
+}
 
 
 /** Footer */

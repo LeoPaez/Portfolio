@@ -151,23 +151,26 @@
     <div class="contacto" id="contacto">
         <div class="form">
             <h2 class="form__t">Contacto</h2>
-            <form class="form__cont">
+            <form action="https://formsubmit.co/lpaezbusiness@gmail.com" method="POST" class="form__cont">
                 <div class="form-control">
                     <label for="nombre"></label>
-                    <input class="form__campo" type="text" placeholder="Nombre" id="nombre">
+                    <input class="form__campo" type="name" placeholder="Nombre" id="nombre" name="name" required>
                     <p></p>
                 </div>
                 <div class="form-control">
                     <label for="email"></label>
-                    <input class="form__campo" type="email" placeholder="Email" id="email">
+                    <input class="form__campo" type="email" placeholder="Email" id="email" name="email" required>
                     <p></p>
                 </div>
                 <div class="form-control">
                     <label for="msj"></label>
-                    <textarea class="form__campo" placeholder="Mensaje" id="msj"></textarea>
+                    <textarea class="form__campo" placeholder="Mensaje" id="msj" name="message" required></textarea>
                     <p></p>
                 </div>
                 <button class="btn-form">Enviar</button>
+                <p id="submit-ok"></p>
+
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
         <img class="contacto__img" src="/img/contact-draw.svg" alt="">

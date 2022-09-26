@@ -3,14 +3,16 @@ window.addEventListener("load", ()=> {
     const nombre = document.getElementById("nombre")
     const email = document.getElementById("email")
     const msj = document.getElementById("msj")
+    const submitOk = document.getElementById("submit-ok")
 
     form.addEventListener("submit", (e) => {
-        e.preventDefault()
+        if(!validaEmail(email.value.trim())) {
+            e.preventDefault()
+        }
         validaCampos()
     })
-
     
-    const validaCampos = ()=> {
+    const validaCampos = () => {
         // capturar los valores ingresados por el usuario
         const nombreValor = nombre.value.trim()
         const emailValor = email.value.trim()
@@ -40,7 +42,10 @@ window.addEventListener("load", ()=> {
         } else {
             validaOk(msj)
         }
-
+        if (nombreValor && emailValor && msjValor) {
+            submitOk.classList.add("submit-ok")
+            submitOk.innerHTML = `Mensaje enviado correctamente`
+        }
     }
 
     const validaFalla = (input, msje)  => {
@@ -60,4 +65,4 @@ window.addEventListener("load", ()=> {
     }
 })
 
-document.querySelectorAll('.special').forEach(l=>l.addEventListener('click',e => document.getElementById('openSidebarMenu').click()));
+document.querySelectorAll('.special').forEach(l=>l.addEventListener('click', (e) => document.getElementById('openSidebarMenu').click()));
