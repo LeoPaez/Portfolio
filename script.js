@@ -25,7 +25,6 @@ window.addEventListener("load", ()=> {
             console.log("CAMPO VACIO");
             validaFalla(nombre, "Campo vacío")
         } else {
-            console.log(nombreValor);
             validaOk(nombre)
         }
 
@@ -42,7 +41,7 @@ window.addEventListener("load", ()=> {
         } else {
             validaOk(msj)
         }
-        if (nombreValor && emailValor && msjValor) {
+        if (nombreValor && validaEmail(emailValor) && msjValor) {
             submitOk.classList.add("submit-ok")
             submitOk.innerHTML = `Mensaje enviado correctamente`
         }
