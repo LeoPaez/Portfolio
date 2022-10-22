@@ -537,6 +537,7 @@ a {
         transform: translateX(-250px);
         transition: transform 250ms ease-in-out;
         background: #030455;
+        border-radius: 0 0 4px 0;
     }
     .sidebarMenuInner{
         margin:0;
@@ -551,6 +552,9 @@ a {
         padding: 20px;
         cursor: pointer;
         border-bottom: 1px solid #00B4D8;
+    }
+    .sidebarMenuInner li:last-of-type {
+        border: none;
     }
     .sidebarMenuInner li span{
         display: block;
