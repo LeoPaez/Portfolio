@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Hi, I'm",
+    "info": "Inventive developer located in the Pearl of the Atlantic. Enthusiastic to expand my knowledge day by day, managing to carry out incredible projects that gave me experience to create websites from scratch to final product.",
+    "hireMeButton": "Hire Me"
+  },
+  "about": {
+    "title": "About Me",
+    "info": "My vision is to be able to create websites with a good criteria, that are adaptable, dynamic, accessible and with my own touch of design to give it my personal brand and without leaving aside the efficiency for a good user experience. I like to be aware of new technologies and experiment on my own with new challenges.",
+    "years": "Years of coding",
+    "projects": "Projects completed"
+  },
+  "projects": {
+    "title": "Projects",
+    "project1": "Hotel Oasis is a website where you can rent luxury rooms and filter them according to your needs",
+    "project2": "Hardware store where you can get all kinds of components for your computer",
+    "project3": "CRUD where users can be added, edited, filtered and deleted. Users are stored in a fake API",
+    "project4": "Furniture store where you can buy the best furniture for your home",
+    "viewMoreButton": "View More"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "subject": "Subject",
+    "msg": "Message",
+    "submitButton": "Submit"
+  },
+  "formAlert" : {
+    "title": "Wait...",
+    "msg": "You did not complete all the fields of the form"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
